@@ -1,0 +1,169 @@
+body {
+    margin: 0;
+}
+  
+.containerr {
+    width: 100% !important;
+}
+
+.bg {
+    background-image: url('pict/bg.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+h1 {
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+p {
+    font-size: 20px;
+}
+  
+.containerr .center {
+    width: 100%;
+    font-size: 25px;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+@media (min-width:992px) {
+    .center{
+      display: flex;
+      justify-content: center;
+    }
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.card-body {
+    background-color: white;
+    height: auto;
+    position: relative;
+}
+
+.card-text {
+    font-size: 17px;
+}
+
+.volume {
+    background-color: #fe7322;
+    position: fixed;
+    bottom: 100px;
+    right: 30px;
+    padding: 15px;
+}
+
+.volume {
+    color: white;
+}
+
+div.scrollmenu {
+    background-color: white;
+    overflow: auto;
+    white-space: nowrap;
+    display: flex;
+    justify-content: center;
+}
+
+div.scrollmenu>a {
+    display: block;
+    color: #FEA000;
+    text-align: center;
+    border-left: 1px solid #FEA000;
+    border-right: 1px solid #FEA000;
+    padding: 14px;
+    width: 110px;
+    text-decoration: none;
+    margin: 0;
+}
+
+div.scrollmenu a:hover {
+    background-color: #FEA000;
+    color: white;
+}
+
+@media only screen and (max-width: 600px) {
+    div.scrollmenu {
+        overflow-x: scroll;
+        display: flex;
+        justify-content: left;  
+        /* width: 1000px; */
+
+    }
+}
+
+@media all and (max-width: 480px) { 
+    .foto{
+        width: 350px;
+    }
+    div.scrollmenu>a{
+        /* display: block; */
+        width: 110px;
+    }
+}
+
+.cover {
+    background-color: #f3f8fb;
+}
+
+.btn-primary {
+    background-color:#FEA000 !important;
+    border-color:#FEA000 !important;
+}
+
+.btn {
+    background-color:#FEA000 !important;
+    color: white !important;
+    font-weight: bold !important;
+}
+
+.btn:hover {
+    background-color:#c27f0c !important;
+}
+
+.text-p {
+    font-size: 17px;
+}
+
+.bg-c {
+    background-color:#A8D6FA;
+}
+
+.text-tu {
+    color: white;
+}
+
+.card-title-u {
+    color: grey;
+    margin-top: 15px;
+}
+
+.card-text-u {
+    margin-top: 25px;
+}
+
+.bold-u {
+    font-weight: bold;
+}
+
+.text-a {
+    font-size: 17px;
+}
+
+ul {
+    font-size: 18px;
+}
+
+.card-body-g {
+    background-color:#A8D6FA;
+}
+
+.btn-copy {
+    font-size: 10px;
+}
+
+.form-undangan {
+    background-color:#A8D6FA;
+}
